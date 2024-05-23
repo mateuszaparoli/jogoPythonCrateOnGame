@@ -1,0 +1,26 @@
+answer1= "import tkinter as tk
+
+root = tk.Tk()
+root.title("Python Quest")
+root.geometry("800x600")
+
+root.mainloop()
+"
+
+answer2 = "import tkinter as tk
+
+root = tk.Tk()
+root.title("Python Quest")
+root.geometry("800x600")
+
+canvas = tk.Canvas(root, width=800, height=600)
+canvas.pack()
+
+# Draw a rectangle
+canvas.create_rectangle(50, 50, 250, 150, fill="blue")
+
+# Display text
+canvas.create_text(150, 100, text="Welcome to Python Quest!", font=("Consolas", 20))
+
+root.mainloop()
+"
