@@ -24,3 +24,6 @@ canvas.create_text(150, 100, text="Welcome to Python Quest!", font=("Consolas", 
 
 root.mainloop()
 "
+
+test
+
